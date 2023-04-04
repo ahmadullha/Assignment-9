@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeArt</title>
+    <meta name="title" content="Wren - CodeArt">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+		<div class="logo">
+			<img src="logo.png" alt="CodeArt">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    <!-- Featured Post Section -->
+	<section class="featured-post">
+		<h2>Latest Blog Post</h2>
+		<div class="post-image">
+			<img src="img/WhatsApp Image 2023-04-04 at 1.29.37 PM.jpeg" alt="Blog Post Image">
+		</div>
+		<div class="post-excerpt">
+			<h3>Title of Blog Post</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod euismod odio, ac maximus metus blandit eget. Phasellus eleifend, quam vel fermentum bibendum, risus orci malesuada nibh, eu ullamcorper turpis nisi a leo.</p>
+			<a href="#">Read More</a>
+		</div>
+	</section>
+
+	<!-- Other Content -->
+
+    <main>
+		<div class="blog-posts">
+			<h2>Latest Blog Posts</h2>
+			<article class="blog-post">
+				<h3>Title of the First Blog Post</h3>
+				<img src="img/WhatsApp Image 2023-04-04 at 1.29.37 PM (1).jpeg" alt="Image for the First Blog Post">
+				<p>Excerpt for the first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium orci id elit bibendum, vel venenatis massa varius. Nulla vel neque eros. Aliquam in ligula eget eros commodo vehicula ac nec velit. Duis auctor porttitor urna, eget gravida lorem posuere eu. Suspendisse pulvinar augue eu nibh fringilla, sit amet commodo lorem rhoncus.</p>
+				<a href="#">Read More</a>
+			</article>
+			<article class="blog-post">
+				<h3>Title of the Second Blog Post</h3>
+				<img src="img/WhatsApp Image 2023-04-04 at 1.29.37 PM (2).jpeg" alt="Image for the Second Blog Post">
+				<p>Excerpt for the second blog post. Sed euismod ut sem vel feugiat. Pellentesque semper lacus eu est volutpat, a bibendum lacus posuere. Vivamus tincidunt lacus ut fringilla fringilla. Suspendisse vel mollis est, id feugiat nunc. Maecenas suscipit felis sit amet quam dapibus eleifend. Pellentesque malesuada ac lorem at egestas.</p>
+				<a href="#">Read More</a>
+			</article>
+			<article class="blog-post">
+				<h3>Title of the Third Blog Post</h3>
+				<img src="img/WhatsApp Image 2023-04-04 at 1.29.37 PM (3).jpeg" alt="Image for the Third Blog Post">
+				<p>Excerpt for the third blog post. Nullam vehicula metus id nunc bibendum, euismod consectetur massa sollicitudin. Sed sed lacus ligula. Duis vehicula risus in risus tempor mollis. Fusce auctor augue non velit gravida bibendum. In hac habitasse platea dictumst. Phasellus et semper arcu, eget blandit augue.</p>
+				<a href="#">Read More</a>
+			</article>
+		</div>
+
+		<aside class="sidebar">
+			<div class="search-box">
+				<input type="text" placeholder="Search...">
+				<button type="submit">Go</button>
+			</div>
+			<div class="categories">
+				<h3>Categories</h3>
+				<ul>
+					<li><a href="#">Category 1</a></li>
+					<li><a href="#">Category 2</a></li>
+					<li><a href="#">Category 3</a></li>
+					<!-- Repeat for each category -->
+				</ul>
+			</div>
+		</aside>
+	</main>
+    <div class="contact-form">
+        <h2>Contact ME</h2>
+		<form type="POST" id="fruitkha-contact" action="contact.php" onsubmit="return valid_datas( this );">
+			<p>
+				<input type="text" placeholder="Name" name="name" id="name">
+				<input type="email" placeholder="Email" name="email" id="email">
+			</p>
+			<p>
+				<input type="tel" placeholder="Phone" name="phone" id="phone">
+				<input type="text" placeholder="Subject" name="subject" id="subject">
+			</p>
+			<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+				<input type="hidden" name="token" value="FsWga4&amp;@f6aw">
+			<p><input type="submit" value="Submit"></p>
+		</form>
+	</div>
+</body>
+</html>

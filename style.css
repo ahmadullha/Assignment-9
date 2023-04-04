@@ -1,0 +1,281 @@
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+  }
+  
+  /* Featured Post Styling */
+  .featured-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .featured-post h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .post-image img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .post-excerpt {
+    text-align: center;
+  }
+  
+  .post-excerpt h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-excerpt p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .post-excerpt a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding-bottom: 3px;
+  }
+  
+  .post-excerpt a:hover {
+    color: #666;
+    border-bottom-color: #666;
+  }
+  
+
+  /* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #ddd;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.posts {
+	flex: 3;
+	margin-right: 20px;
+}
+
+.posts article {
+	margin-bottom: 20px;
+}
+
+.posts h2 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.posts img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.blog-post img {
+    width: 50%;
+    height: 50%;
+	margin-bottom: 10px;
+}
+.posts p {
+	margin-bottom: 10px;
+}
+
+.read-more {
+	display: inline-block;
+	background-color: #0066cc;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.read-more:hover {
+	background-color: #004c99;
+}
+
+.sidebar {
+	flex: 1;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.sidebar h3 {
+	margin-top: 20px;
+}
+
+.search input[type="search"] {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.search button[type="submit"] {
+	display: none;
+}
+
+.categories ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.categories li {
+	margin-bottom: 10px;
+}
+
+.categories a {
+	display: block;
+	padding: 5px;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+.categories a:hover {
+	background-color: #ccc;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* Set font and background color for the form */
+.contact-form {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 50px;
+    padding-left: 100px;
+    border-radius: 10px;
+  }
+  
+  /* Style form fields */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style form fields when focused */
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form input[type="tel"]:focus,
+  .contact-form textarea:focus {
+    border: 1px solid #4CAF50;
+  }
+  
+  /* Style form fields when there's an error */
+  .contact-form input[type="text"].error,
+  .contact-form input[type="email"].error,
+  .contact-form input[type="tel"].error,
+  .contact-form textarea.error {
+    border: 1px solid red;
+  }
+  
+  /* Style error messages */
+  .contact-form .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
